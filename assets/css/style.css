@@ -16,132 +16,188 @@ body {
 	margin: auto;
 }
 
-	.topoleft {
-		width: 50%;
-		height: 30px;
-		float: left;
-	}
-		.topoleft ul{
-			margin: 0;
-			padding: 0;
-			list-style: none;
-		}
-		.topoleft li{
-			height: 30px;
-			line-height: 30px;
-			float: left;
-			margin-left: 8px;
-			margin-right: 8px;
-		}
-		.topoleft li a{
-			text-decoration: none;
-			color: #FFF;
-		}
-		.topoleft li .ativo {
-			color: #169DD0;
-		}
+.topoleft {
+	width: 50%;
+	height: 30px;
+	float: left;
+}
+.topoleft ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.topoleft li{
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.topoleft li a{
+	text-decoration: none;
+	color: #FFF;
+}
+.topoleft li .ativo {
+	color: #169DD0;
+}
 
-	.toporight {
-		width: 50%;
-		height: 28px;
-		float: right;
-		text-align: right;
-		margin-top: 2px;
-	}
-		.topo-busca {
-			margin: 0px;
-			padding: 0px;
-			width: 110px;
-			height: 22px;
-			outline: 0;
-			float: right;		
-		}
-		.toporight a {
-			float: right;
-			color: white;
-			line-height: 28px;
-			font-size: 26px;
-			margin-right: 4px;
-		}
-		.toporight input{
-			float: right;
-		}
+.toporight {
+	width: 50%;
+	height: 28px;
+	float: right;
+	text-align: right;
+	margin-top: 2px;
+}
+.topo-busca {
+	margin: 0px;
+	padding: 0px;
+	width: 110px;
+	height: 22px;
+	outline: 0;
+	float: right;		
+}
+.toporight a {
+	float: right;
+	color: white;
+	line-height: 28px;
+	font-size: 26px;
+	margin-right: 4px;
+}
+.toporight input{
+	float: right;
+}
 
 .topo2 {
 	height: 95px;
 	color: #000;
 }
 
-	.topo2int {
-		width: 100%;
-		max-width: 1040px;
-		height: 95px;
-		margin: auto;
-	}
+.topo2int {
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin: auto;
+}
 
-		.logo {
-			width: 230px;
-			height: 90px;
-			float: left;
-			margin-top: 13px;
-		}
-
-		.anuncio-topo {
-			width: 650px;
-			height: 92px;
-			float: right;
-			background-color: #169DD0; 
-			margin-top: 7px;
-		}
+.logo {
+	width: 230px;
+	height: 90px;
+	float: left;
+	margin-top: 13px;
+}
+.anuncio-topo {
+	width: 650px;
+	height: 92px;
+	float: right;
+	background-color: #169DD0; 
+	margin-top: 7px;
+}
 
 .menu {
 	height: 40px;
 	background-color: #169DD0; 
 }
-	.menuint {
-		width: 100%;
-		max-width: 1040px;
-		height: 40px;
-		margin: auto;
-	}
 
-	.menuint .fa{
-		font-size: 10px;
-		color: #FFF;
-	}
-	.menu ul {
-			/*margin: 0;*/
-			padding: 0;
-			list-style: none;
-	}
-	.menu li {
-		float: left;
-		height: 40px;
-		line-height: 40px;
-		padding-left: 8px;
-		padding-right: 8px;
-	}
-	.menu li:hover .submenu{
-		display: block;
-	}
+.menuint {
+	width: 100%;
+	max-width: 1040px;
+	height: 40px;
+	margin: auto;
+}
 
-	.menu a {
-		text-decoration: none;
-		color: #FFF;
-	}
-		.submenu {
-			width: 120px;
-			background-color: #169DD0;
-			position: absolute;
-			display: none;
-		}
+.menuint .fa{
+	font-size: 10px;
+	color: #FFF;
+}
+.menu ul {
+	/*margin: 0;*/
+	padding: 0;
+	list-style: none;
+}
+.menu li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.menu li:hover .submenu{
+	display: block;
+}
 
-		.submenuitem {
-			width: 110px;
-			height: 30px;
-			line-height: 30px;
-			padding-left: 10px;
-		}
-		.submenuitem:hover {
-			background: #ff6725;
-		}		
+.menu a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.submenu {
+	width: 120px;
+	background-color: #169DD0;
+	position: absolute;
+	display: none;
+}
+.submenuitem {
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.submenuitem:hover {
+	background: #ff6725;
+}	
+
+.ultimas-noticias {
+	height: 40px;
+}	
+
+.ultimas-noticias-int {
+	width: 100%;
+	max-width: 1040px;
+	height: 40px;
+	margin: auto;
+}
+
+.ultimas-noticias-area{
+	height: 28px;
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	margin-top: 10px;
+}
+.ult-noticias-title {
+	background-color: #ff6725;
+	color: #FFF;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.ult-noticias-text {
+	color: #58595B;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.containerint {
+	width: 100%;
+	max-width: 1040px;
+	margin: auto;
+}
+
+.leftside {
+	width: 753px;
+	min-height: 200px;
+	float: left;
+	background-color: #999;
+}
+.rightside {
+	width: 275px;
+	min-height: 200px;
+	float: right;
+	background-color: #999;
+	margin-left: 12px;
+}
+
