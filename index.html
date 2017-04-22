@@ -6,6 +6,7 @@
 		<title>Portal</title>
 		<link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
 		<link href="assets/css/style.css" rel="stylesheet" />
+		<script type="text/javascript" src="assets/js/script.js"></script>
 	</head>
 	
 	<body>
@@ -54,7 +55,7 @@
 							<a href="#"><div class="submenuitem">Submenu Item2</div></a>
 							<a href="#"><div class="submenuitem">Submenu Item3</div></a>
 							<a href="#"><div class="submenuitem">Submenu Item4</div></a>
-							<a href="#"><div class="submenuitem">Submenu Item5</div></a>							
+							<a href="#"><div class="submenuitem">Submenu Item5</div></
 						</div>
 					</li>
 					<li>
@@ -79,14 +80,51 @@
 			<div class="ultimas-noticias-int">
 				<div class="ultimas-noticias-area">
 					<div class="ult-noticias-title">ÚLTIMAS NOTÍCIAS</div>
-					<div class="ult-noticias-text">Aqui é onde vai aparecer as noticias de ultima hora</div>
+					<div class="ult-noticias-text">GLaDOS say in interview: "I just want to let you know that you're all horrible employees. But I can't fire you, because it's tough to get 127,000 scabs."
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container">
 			<div class="containerint">
-				<div class="leftside"></div>
+				
+				<div class="leftside">
+					<div class="slideshow" id="slideshow">
+						<div class="slidebolinhas">
+							<div class="bolinha" onclick="mudarSlide(0)"></div>
+							<div class="bolinha" onclick="mudarSlide(1)"></div>
+							<div class="bolinha" onclick="mudarSlide(2)"></div>
+							<div class="bolinha" onclick="mudarSlide(3)"></div>
+						</div>
+						<div class="slideshowarea">
+							<div class="slide" style="background-image:url('http://www.google.com.br/logos/google.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_title">AQUI VAI FICAR O TITULO 1</div>
+									<div class="slideinfo_subtitle">Aqui vai ficar a matéria referente ao slide</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('http://www.google.com.br/logos/google.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_title">AQUI VAI FICAR O TITULO 2</div>
+									<div class="slideinfo_subtitle">Aqui vai ficar a matéria referente ao slide</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('http://www.google.com.br/logos/google.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_title">AQUI VAI FICAR O TITULO 3</div>
+									<div class="slideinfo_subtitle">Aqui vai ficar a matéria referente ao slide</div>
+								</div>
+							</div>
+							<div class="slide" style="background-image:url('http://www.google.com.br/logos/google.jpg')">
+								<div class="slideinfo">
+									<div class="slideinfo_title">AQUI VAI FICAR O TITULO 4</div>
+									<div class="slideinfo_subtitle">Aqui vai ficar a matéria referente ao slide</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="rightside">
 					<div class="widget">
 						<div class="widget-title">SOCIAL</div>
@@ -99,7 +137,7 @@
 						</div>
 					</div>
 					<div class="widget">
-						<div class="widget-title">ÚLTIMAS NOTICIAS</div>
+						<div class="widget-title">ÚLTIMAS NOTÍCIAS</div>
 						<div class="widget-conteudo">
 							<div class="noticia-item">
 								<a herf="#">You'd really think there'd be more practical applications for a quantum space hole.<br>
