@@ -281,13 +281,14 @@ body {
 	position: absolute;
 	width: 200px;
 	height: 20px;
+	margin-top: 5px;
 }
 
 .bolinha {
 	width: 16px;
 	height: 16px;
 	float: left;
-	margin-right: 5px;
+	margin-left: 5px;
 	cursor: pointer;
 	background-color: #CCC;
 	border-radius: 8px;
