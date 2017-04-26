@@ -375,6 +375,10 @@ body {
 	width: 384px;
 }
 
+.menumobile {
+	display: none;
+}
+
 @media only screen and (min-width: 906px) and (max-width: 1050px){
 
 	.topoint,
@@ -416,11 +420,14 @@ body {
 	.containerint {
 		max-width: 768px;
 	}
-
+ 
 	.topo2 .anuncio-topo {
 		display: none;
 	}
 
+	#menu {
+		display: block !important;
+	}
 	.logo{
 		float: none;
 		margin: auto;
@@ -469,10 +476,29 @@ body {
 		width: 100%;
 	}
 
-	.menuint {
+	
+	.menumobile {
+		display: block;
+	}
+	.menu ul{
+		position: absolute;
+		background-color: #169DD0;
+		z-index: 10;
+		margin: 0;
+		display: none;
+	}
+	.menu li {
+		float: none;
+		height: auto;
+	}
+	.menu li i {
 		display: none;
 	}
 
+	.submenu {
+		position: static;;
+		display: none;
+	}
 	.ultimas-noticias {
 		display: none;
 	}
