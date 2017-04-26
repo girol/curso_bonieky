@@ -340,6 +340,7 @@ body {
 	border: 1px solid #CCC;
 	padding: 3px;
 	float: left;
+	background-color: #CCD6DF;
 }
 
 .noticiatitulo {
@@ -374,7 +375,7 @@ body {
 	width: 384px;
 }
 
-@media only screen and (max-width: 1057px){
+@media only screen and (min-width: 906px) and (max-width: 1050px){
 
 	.topoint,
 	.topo2int,
@@ -383,21 +384,150 @@ body {
 	.containerint {
 		max-width: 890px;
 	}
+
 	.leftside {
 		width: 600px;
 	}
+
 	.noticia-area1 {
 		width: 268px;
 	}
+
 	.noticiabig .noticiaimg {
 		width: 245px;
 	}
+
 	.noticiabig .noticiaimg img {
 		width: 245px;
 	}
+
 	.noticiabig .noticiatitulo {
 		width: 245px;
 		font-size: 22px;
 	}
 }
 
+@media only screen and (min-width: 783px) and (max-width: 906px){
+
+	.topoint,
+	.topo2int,
+	.menuint,
+	.ultimas-noticias-int,
+	.containerint {
+		max-width: 768px;
+	}
+
+	.topo2 .anuncio-topo {
+		display: none;
+	}
+
+	.logo{
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.rightside {
+		display: none;
+	}
+
+	.leftside {
+		float: none;
+		width: auto;
+	}
+
+/*	.noticia-area1 {
+		width: 420px;
+	}
+	.noticiabig .noticiaimg {
+		width: 384px;
+	}
+	.noticiabig .noticiaimg img {
+		width: 384px;
+	}
+	.noticiabig .noticiatitulo {
+		width: 384px;
+		font-size: 26px;
+	}
+*/
+}
+
+@media only screen and (max-width: 783px){
+	.topoint,
+	.topo2int,
+	.menuint,
+	.ultimas-noticias-int,
+	.containerint {
+		max-width: 320px;
+	}
+
+	.topoleft {
+		display: none;
+	}
+
+	.toporight {
+		width: 100%;
+	}
+
+	.menuint {
+		display: none;
+	}
+
+	.ultimas-noticias {
+		display: none;
+	}
+
+	.topo2 .anuncio-topo {
+		display: none;
+	}
+
+	.logo{
+		float: none;
+		margin: auto;
+		margin-top: 20px;
+	}
+
+	.rightside {
+		display: none;
+	}
+
+	.leftside {
+		float: none;
+		width: auto;
+		margin-top: 10px;
+	}
+
+	.noticia-area1 {
+		width: 300px;
+		height: auto;
+		margin-bottom: 15px;
+	}
+
+	.noticia-area2 {
+		width: 300px;
+		margin-left: 10px;
+		float: none;
+	}
+	.noticiatitulo {
+		width: 200px;
+	}
+	.noticiainfo {
+		width: 200px;
+	}
+	.noticiaitem {
+		clear: both;
+	}
+	.noticiabig .noticiaimg {
+		width: 280px;
+	}
+
+	.noticiabig .noticiaimg img {
+		width: 280px;
+	}
+
+	.noticiabig .noticiatitulo {
+		width: 280px;
+		font-size: 22px;
+	}
+
+}
